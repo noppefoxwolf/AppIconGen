@@ -1,8 +1,8 @@
-# AppIconGen
+![](https://github.com/noppefoxwolf/AppIconGen/blob/master/Meta/banner.png)
 
-AppIcon generator for iOS project.
+# Demo
 
-
+![](https://github.com/noppefoxwolf/AppIconGen/blob/master/Meta/movie.gif)
 
 # Installation
 
