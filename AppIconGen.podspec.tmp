@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage    = 'https://github.com/noppefoxwolf/AppIconGen'
   s.license     = { :type => 'MIT', :file => 'LICENSE' }
   s.author      = 'noppefoxwolf'
-  s.source      = { :http => "#{s.homepage}/releases/download/#{s.version}/portable_licenseplist.zip" }
+  s.source      = { :http => "#{s.homepage}/releases/download/#{s.version}/portable_appicongen.zip" }
   s.preserve_paths = '*'
   s.exclude_files  = '**/file.zip'
 end
