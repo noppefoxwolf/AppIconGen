@@ -66,8 +66,6 @@ public struct AppIconGen {
   private func isUpdatedNeeded() -> Bool {
     let image = md5(ofImage: options.inputFilePath)
     let saved = md5(ofSaved: options.filePathInAppIcon(fileName: ".md5"))
-    print(image)
-    print(saved)
     return image != saved
   }
   
@@ -84,7 +82,6 @@ public struct AppIconGen {
   
   private func updateMd5() {
     let image = md5(ofImage: options.inputFilePath)
-    print(image)
     let url = options.filePathInAppIcon(fileName: ".md5")
     try! image.write(to: url, atomically: true, encoding: .utf8)
   }
