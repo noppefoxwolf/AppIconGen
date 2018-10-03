@@ -36,6 +36,15 @@
           "revision": "b038d13ef40ce6d11aa3599181e45f099814a053",
           "version": "2.2.0"
         }
+      },
+      {
+        "package": "SwiftHash",
+        "repositoryURL": "https://github.com/onmyway133/SwiftHash.git",
+        "state": {
+          "branch": null,
+          "revision": "a900fc3f33c67eb33c9e650651edf6e23a410b3c",
+          "version": "2.0.2"
+        }
       }
     ]
   },

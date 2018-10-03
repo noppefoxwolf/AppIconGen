@@ -14,6 +14,8 @@ let package = Package(
              from: "2.0.0"),
     .package(url: "https://github.com/kylef/Commander.git",
              from: "0.8.0"),
+    .package(url: "https://github.com/onmyway133/SwiftHash.git",
+             from: "2.0.2")
   ],
   targets: [
     .target(
@@ -21,7 +23,7 @@ let package = Package(
       dependencies: ["AppIconGenCore", "Commander"]),
     .target(
       name: "AppIconGenCore",
-      dependencies: ["SwiftGD"]),
+      dependencies: ["SwiftGD", "SwiftHash"]),
     .testTarget(
       name: "AppIconGenTests",
       dependencies: ["AppIconGen"]),
